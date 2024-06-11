@@ -1,0 +1,186 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh * 4);
+    
+    background: #ae9d9d;
+}
+.about,
+.projectIot,
+.projectmedia,
+.projectUnity,
+.projectNLP {
+  flex: 1;
+}
+.about{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+  
+}
+.projectIot{
+    height: 20%;
+    width: 100%;
+    background-color: #64363C;
+    background-image: url('../img/100-90-6.png');
+    
+}
+.projectIot .photoZone img{
+    align-items: center;
+}
+.projectIot h1{
+    color: #F8C3CD;
+}
+.projectIot .textZone{
+    margin-left: 5%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    float: left;
+}
+.projectIot .photoZone{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-size: cover; 
+    display: flex;
+    justify-content: center; /*水平居中*/
+    align-items: center; /*垂直居中*/
+ 
+    
+}
+
+img{
+    margin-right: 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 30px; /* 添加圆角 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.projectIot .textZone p{
+    font-size: 36px;
+    color: rgb(236, 236, 36);
+    font-weight: 900;
+}
+.projectIot .textZone p span{
+    font-size: 36px;
+    color: rgb(248, 248, 248);
+    font-weight: 900;
+}
+.projectmedia{
+    height: 20%;
+    width: 100%;
+    background-color: #86473F;
+    background-image: url('../img/100-90-6.png');
+}
+.projectmedia h1{
+    color: #81C7D4;
+}
+.projectmedia .textZone{
+    width: 50%;
+    height: 100%;
+    
+    text-align: right;
+    float: right;
+    
+}
+.projectmedia .textZone h1{
+    margin-right: 5%;
+}
+.projectmedia .textZone p{
+    font-size: 36px;
+    color: #51A8DD;
+    font-weight: 900;
+    margin-right: 5%;
+}
+.projectmedia .textZone p span{
+    font-size: 36px;
+    color: rgb(248, 248, 248);
+    font-weight: 900;
+    
+}
+.projectmedia .photoZone{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-size: cover; 
+    
+}
+.projectUnity{
+    height: 20%;
+    width: 100%;
+    background-color: #B9887D;
+    background-image: url('../img/100-90-6.png');
+}
+.projectUnity .textZone{
+    margin-left: 5%;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    float: left;
+}
+.projectUnity .photoZone{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-size: cover; 
+    display: flex;
+    justify-content: center; /*水平居中*/
+    align-items: center; /*垂直居中*/
+    
+}
+.projectUnity .textZone p{
+    font-size: 36px;
+    color: rgb(236, 236, 36);
+    font-weight: 900;
+}
+.projectUnity .textZone p span{
+    font-size: 36px;
+    color: rgb(248, 248, 248);
+    font-weight: 900;
+}
+.projectNLP{
+    height: 20%;
+    width: 100%;
+    background-color: #FB966E;
+    background-image: url('../img/100-90-6.png');
+}
+.projectNLP .textZone{
+    width: 50%;
+    height: 100%;
+    
+    text-align: right;
+    float: right;
+    
+}
+
+.projectNLP .textZone h1{
+    margin-right: 5%;
+    color: #43341B;
+}
+.projectNLP .textZone p{
+    font-size: 36px;
+    color: #4D5139;
+    font-weight: 900;
+    margin-right: 5%;
+}
+.projectNLP .textZone p span{
+    font-size: 36px;
+    color:#2E5C6E;
+    font-weight: 900;
+    
+}
+.projectNLP .photoZone{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-size: cover; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center; /*水平居中*/
+    align-items: center; /*垂直居中*/
+    
+}
